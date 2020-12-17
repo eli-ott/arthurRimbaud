@@ -1,0 +1,71 @@
+:root{
+    --color: #E0E0E0;
+    --contrastColor: #F24236;
+}
+html{
+    margin: 0;
+    padding: 0;
+    background: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    text-align: center;
+    color: var(--color);
+    margin: 1vh;
+    height: 98%;
+    backdrop-filter: brightness(10%);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+nav{
+    background: var(--contrastColor);
+    height: 5%;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 15px 15px 0 0;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    -ms-border-radius: 15px 15px 0 0;
+    -o-border-radius: 15px 15px 0 0;
+}
+nav a{
+    margin: 0;
+    color: #312f2f;
+    text-decoration: underline dashed;
+    font-size: 3vh;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+nav a:hover{
+    color: var(--color);
+    text-decoration: underline dashed;
+}
+main{
+    font-size: 2.5vh;
+    padding: 6vh;
+    line-height: 5vh;
+}
+p#title{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin-bottom: 15vh;
+    color: var(--contrastColor);
+    font-size: 8vh;
+    font-weight: 600;
+    text-decoration: underline;
+}
+@media screen and (max-width: 600px){
+    img{
+        display: none;
+    }
+} 
