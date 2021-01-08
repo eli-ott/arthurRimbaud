@@ -67,5 +67,9 @@ p#title{
 @media screen and (max-width: 600px){
     img{
         display: none;
-    }
+   } 
+   p#title{
+        font-size: 6vh;
+        margin-bottom: 5vh;
+   } 
 } 
