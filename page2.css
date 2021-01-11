@@ -96,4 +96,7 @@ label:hover input{
     label{
         display: none;
     }
+    main{
+        padding: 4vh;   
+    }
 }
