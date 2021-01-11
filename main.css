@@ -66,7 +66,7 @@ p#title{
 }
 @media screen and (max-width: 600px){
     html{
-        height auto;
+        height: auto;
     }
     img{
         display: none;
