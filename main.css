@@ -65,6 +65,9 @@ p#title{
     text-decoration: underline;
 }
 @media screen and (max-width: 600px){
+    html{
+        height auto;
+    }
     img{
         display: none;
    } 
