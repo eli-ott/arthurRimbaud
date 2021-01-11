@@ -96,7 +96,4 @@ label:hover input{
     label{
         display: none;
     }
-    p#content{
-        margin: 5vh;   
-    }
 }
